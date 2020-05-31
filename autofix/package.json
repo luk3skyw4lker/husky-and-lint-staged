@@ -12,8 +12,7 @@
   },
   "lint-staged": {
     "*.js": [
-      "yarn eslint --fix",
-      "git add"
+      "yarn eslint --fix"
     ]
   },
   "scripts": {
