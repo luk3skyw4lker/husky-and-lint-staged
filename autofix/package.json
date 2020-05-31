@@ -12,7 +12,8 @@
   },
   "lint-staged": {
     "*.js": [
-      "yarn eslint --fix"
+      "yarn eslint --fix",
+      "cross-env CI=true && yarn test"
     ]
   },
   "scripts": {
@@ -37,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "cross-env": "^7.0.2",
     "eslint": "^7.1.0",
     "eslint-config-airbnb": "^18.1.0",
     "eslint-plugin-import": "^2.20.2",
