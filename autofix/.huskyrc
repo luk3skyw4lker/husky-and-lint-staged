@@ -1,5 +1,5 @@
 {
   "hooks": {
-    "pre-commit": "echo 'TESTING'"
+    "pre-commit": "yarn lint-staged"
   }
 }
