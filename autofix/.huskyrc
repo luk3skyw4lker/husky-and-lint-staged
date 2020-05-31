@@ -1,3 +1,5 @@
 {
-  "pre-commit": "echo 'TESTING'"
+  "hooks": {
+    "pre-commit": "echo 'TESTING'"
+  }
 }
