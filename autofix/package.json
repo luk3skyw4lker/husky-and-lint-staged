@@ -12,8 +12,7 @@
   },
   "lint-staged": {
     "*.js": [
-      "yarn eslint --fix",
-      "cross-env CI=true && yarn test"
+      "yarn eslint --fix"
     ]
   },
   "scripts": {
